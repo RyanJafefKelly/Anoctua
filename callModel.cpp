@@ -93,7 +93,6 @@
 //     for(int t = 0; t < parameters.ncol(); t++){
 //       currentParameters.push_back(parameters(p,t));
 //     }
-//     // std::cout << "C1: x0 = " << currentParameters.at(0) << "; y0 = " << currentParameters.at(1) << std::endl;
 //     Individual* indOut = mod.runSimulation(currentParameters, iterations, maxDuration, ranGen, observationTimeVec,
 //                                            startTime, startDayOfYear, solarLatitude,solarLongitude, environmentResolution); 
 //     // create dataframe fitting the output requirements

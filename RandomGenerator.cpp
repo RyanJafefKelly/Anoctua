@@ -76,7 +76,6 @@ int RandomGenerator::multinomialDraw(double *chances, int size, double max)
 
 	double min = 0.0;
 	double x = randomdouble(min, max);
-	//std::cout << x << std::endl;
 
 	bool go = true;
 	int start = 0;

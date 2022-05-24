@@ -12,7 +12,7 @@ class RunSim {
 public:
     RunSim();
 	virtual ~RunSim();
-    int run_sim;
+    double* run_sim;
 
 };
 
